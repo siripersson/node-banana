@@ -45,11 +45,17 @@ exports.describeSpoon =() => {
 }
 
 // Node modul 3
+exports.describeSallad =() => {
+	console.log(sallad_obj.name + " with price: " + sallad_obj.price +'sek')
+}
+
+
+// Node modul 4
 exports.describeItem =(item) => {
 	console.log(item.name+ " with price: " + item.price + 'sek')
 }
 
-// Node modul 4
+// Node modul 5
 exports.describeMenu =() => {
 	console.log("On the menu: ")
 	for(i=0; i<menu.length; i++){
